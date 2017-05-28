@@ -1,0 +1,51 @@
+
+
+.container{
+	width: 960px;
+	/*height: 960px;*/
+	background-image: url(../images/congruent_pentagon.jpg);
+	margin:auto;
+}
+
+#gametitle{
+	background-color: orange;
+	color: #ffffff;
+	font-family: Georgia, Helvetica, Times, serif;
+	margin:10px 0px 10px 10px;
+	text-align: center;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+#gameinstruction{
+	background-color: #f3e6be;
+	color:  #6fbd57;
+	margin:10px 0px 10px 10px;
+}
+
+#randomnumber{
+	height: 130px;
+	background-color: #6fbd57;
+	margin:10px 0px 10px 10px;
+	
+}
+
+
+#winlose{
+	height: 130px;
+	background-color: #2ff3eb; 
+	margin:10px 0px 10px 10px;
+}
+
+#scoretitle{
+	background-color: #03a087;
+	margin:10px 0px 10px 10px;
+}
+
+#score{
+	height: 130px;
+	background-color: #03a087; 
+	margin:10px 0px 10px 10px;
+}
