@@ -13,8 +13,7 @@
 	font-family: Georgia, Helvetica, Times, serif;
 	margin:10px 0px 10px 10px;
 	text-align: center;
-	padding-left: 1px;
-	padding-right: 1px;
+	width: 270px;
 	padding-top: 5px;
 	padding-bottom: 15px;
 }
@@ -22,7 +21,11 @@
 #gameinstruction{
 	background-color: #f3e6be;
 	color:  #6fbd57;
+	font-size: 18px;
+	font-weight: bold;
 	margin:10px 0px 10px 10px;
+	padding:20px 10px  100px  10px;
+
 }
 
 #randomnumber{
@@ -42,10 +45,13 @@
 #scoretitle{
 	background-color: #03a087;
 	margin:10px 0px 10px 10px;
+	color: #ffffff;
+	font-family: Georgia, Helvetica, Times, serif;
 }
 
 #score{
 	height: 130px;
 	background-color: #03a087; 
 	margin:10px 0px 10px 10px;
+
 }
