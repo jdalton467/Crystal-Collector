@@ -4,7 +4,7 @@ var win = 0;
 var lose = 0;
 
 var crystal = {diamond : [Math.floor(Math.random()*(12-1))+1],
-							 emerald : [Math.floor(Math.random()*(12-1))+1],
+			   emerald : [Math.floor(Math.random()*(12-1))+1],
                ruby: [Math.floor(Math.random()*(12-1))+1],
                sapphire: [Math.floor(Math.random()*(12-1))+1],    
              };
@@ -23,6 +23,15 @@ $("#winbox").html(win);
 $("#losebox").html(lose);
 $("#score").html(score);
 
+$(document).ready(start);
 
+function start() {
+
+	$("#diamond").on("click", function(){
+		score = score + crystal.diamond;
+		console.log(score);
+	});
+
+}
 
 
