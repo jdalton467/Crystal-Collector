@@ -1,4 +1,3 @@
-	
 var score = 0;
 var win = 0;
 var lose = 0;
@@ -30,7 +29,8 @@ $("#losebox").html(lose);
 $("#score").html(score);
 
 $(document).ready(function(){
-	$("#diamond").click(function(){
+
+$("#diamond").click(function(){
 
 	var scoreValue = parseInt(score);
 	var diamondValue = parseInt(crystal.diamond);
@@ -42,26 +42,27 @@ $(document).ready(function(){
 	lose = loseValue+=1;
 	console.log(lose);
 	$("#losebox").html(lose);
-	// randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
-	// console.log(randomNumbervalue);
-	// score = 0;
-	// diamondValue = [Math.floor(Math.random()*(12-1))+1];
-	// score = scoreValue + diamondValue;
-	// console.log(score);
-	// console.log(diamondValue);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
+	}
 
-    }
+
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
-    }
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
+	}
+});
 
 
-	});
 
-
-	$("#emerald").click(function(){
+$("#emerald").click(function(){
 
 	var scoreValue = parseInt(score);
 	var emeraldValue = parseInt(crystal.emerald);
@@ -73,20 +74,27 @@ $(document).ready(function(){
 	lose = loseValue+=1;
 	console.log(lose);
 	$("#losebox").html(lose);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
 
-
-	});
+});
 
 
 
   
-	$("#ruby").click(function(){
+$("#ruby").click(function(){
 
 	var scoreValue = parseInt(score);
 	var rubyValue = parseInt(crystal.ruby);
@@ -98,20 +106,27 @@ $(document).ready(function(){
 	lose = loseValue+=1;
 	console.log(lose);
 	$("#losebox").html(lose);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
 
-
-	});
-
+});
 
 
 
-	$("#sapphire").click(function(){
+
+$("#sapphire").click(function(){
 
 	var scoreValue = parseInt(score);
 	var sapphireValue = parseInt(crystal.sapphire);
@@ -123,31 +138,26 @@ $(document).ready(function(){
 	lose = loseValue+=1;
 	console.log(lose);
 	$("#losebox").html(lose);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
+	score = 0;
+	scoreValue = parseInt(score);
+	console.log(scoreValue);
+	$("#score").html(score);
     }
-
-
-
-
-
-	});
-
-
-
-	
-
-
 
 });
 
 
 
-
-
+});
 
 
 
