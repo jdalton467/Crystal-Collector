@@ -3,6 +3,11 @@ var score = 0;
 var win = 0;
 var lose = 0;
 var randomNumber = [Math.floor(Math.random()*(120-19))+19];
+var randomNumbervalue = parseInt(randomNumber);
+var winValue = parseInt(win);
+var loseValue = parseInt(lose);
+var scoreValue = parseInt(score);
+
 
 var crystal = {diamond : [Math.floor(Math.random()*(12-1))+1],
 				emerald : [Math.floor(Math.random()*(12-1))+1],
@@ -19,7 +24,7 @@ console.log(crystal.sapphire);
 
 
 
-$("#randomnumber").html(randomNumber); //randomnumber generated that the player tries to match
+$("#randomnumber").html(randomNumbervalue); //randomnumber generated that the player tries to match
 $("#winbox").html(win);
 $("#losebox").html(lose);
 $("#score").html(score);
@@ -32,12 +37,22 @@ $(document).ready(function(){
 	score = scoreValue + diamondValue;
 	console.log(score);
 	$("#score").html(score);
+
+	if(score > randomNumbervalue){
+	lose = loseValue+=1;
+	console.log(lose);
+	$("#losebox").html(lose);
+    }
+    else if(score === randomNumbervalue){
+	win = winValue+=1;
+	console.log(win);
+	$("#winbox").html(win);
+    }
+
+	
 	});
 
-});
 
-
-$(document).ready(function(){
 	$("#emerald").click(function(){
 
 	var scoreValue = parseInt(score);
@@ -45,11 +60,24 @@ $(document).ready(function(){
 	score = scoreValue + emeraldValue;
 	console.log(score);
 	$("#score").html(score);
+
+	if(score > randomNumbervalue){
+	lose = loseValue+=1;
+	console.log(lose);
+	$("#losebox").html(lose);
+    }
+    else if(score === randomNumbervalue){
+	win = winValue+=1;
+	console.log(win);
+	$("#winbox").html(win);
+    }
+
+
 	});
 
-});
 
-$(document).ready(function(){
+
+  
 	$("#ruby").click(function(){
 
 	var scoreValue = parseInt(score);
@@ -57,11 +85,24 @@ $(document).ready(function(){
 	score = scoreValue + rubyValue;
 	console.log(score);
 	$("#score").html(score);
+
+	if(score > randomNumbervalue){
+	lose = loseValue+=1;
+	console.log(lose);
+	$("#losebox").html(lose);
+    }
+    else if(score === randomNumbervalue){
+	win = winValue+=1;
+	console.log(win);
+	$("#winbox").html(win);
+    }
+
+
 	});
 
-});
 
-$(document).ready(function(){
+
+
 	$("#sapphire").click(function(){
 
 	var scoreValue = parseInt(score);
@@ -69,19 +110,31 @@ $(document).ready(function(){
 	score = scoreValue + sapphireValue;
 	console.log(score);
 	$("#score").html(score);
+	
+	if(score > randomNumbervalue){
+	lose = loseValue+=1;
+	console.log(lose);
+	$("#losebox").html(lose);
+    }
+    else if(score === randomNumbervalue){
+	win = winValue+=1;
+	console.log(win);
+	$("#winbox").html(win);
+    }
+
+
+
+
+
 	});
 
+
+
+	
+
+
+
 });
-
-
-if(score == randomNumber){
-	win++;
-	$("#winbox").html(win);
-}
-if(score > randomNumber){
-	lose++;
-	$("#losebox").html(lose);
-}
 
 
 
