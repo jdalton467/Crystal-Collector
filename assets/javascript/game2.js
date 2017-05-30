@@ -14,6 +14,11 @@ var crystal = {diamond : [Math.floor(Math.random()*(12-1))+1],
                sapphire: [Math.floor(Math.random()*(12-1))+1],    
              };
 
+var diamondValue = parseInt(crystal.diamond);
+var emeraldValue = parseInt(crystal.emerald);
+var rubyValue = parseInt(crystal.ruby);
+var sapphireValue = parseInt(crystal.sapphire);
+
 console.log(crystal.diamond);
 console.log(crystal.emerald);
 console.log(crystal.ruby);
@@ -33,7 +38,7 @@ $(document).ready(function(){
 $("#diamond").click(function(){
 
 	var scoreValue = parseInt(score);
-	var diamondValue = parseInt(crystal.diamond);
+	// var diamondValue = parseInt(crystal.diamond);
 	score = scoreValue + diamondValue;
 	console.log(score);
 	$("#score").html(score);
@@ -46,6 +51,21 @@ $("#diamond").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
+	
 	}
 
 
@@ -57,6 +77,20 @@ $("#diamond").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
 	}
 });
 
@@ -65,7 +99,6 @@ $("#diamond").click(function(){
 $("#emerald").click(function(){
 
 	var scoreValue = parseInt(score);
-	var emeraldValue = parseInt(crystal.emerald);
 	score = scoreValue + emeraldValue;
 	console.log(score);
 	$("#score").html(score);
@@ -78,7 +111,25 @@ $("#emerald").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
     }
+
+
+
+
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
@@ -87,6 +138,21 @@ $("#emerald").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
+
     }
 
 });
@@ -97,7 +163,6 @@ $("#emerald").click(function(){
 $("#ruby").click(function(){
 
 	var scoreValue = parseInt(score);
-	var rubyValue = parseInt(crystal.ruby);
 	score = scoreValue + rubyValue;
 	console.log(score);
 	$("#score").html(score);
@@ -110,7 +175,24 @@ $("#ruby").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
     }
+
+
+
     else if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
@@ -119,6 +201,20 @@ $("#ruby").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
     }
 
 });
@@ -129,7 +225,6 @@ $("#ruby").click(function(){
 $("#sapphire").click(function(){
 
 	var scoreValue = parseInt(score);
-	var sapphireValue = parseInt(crystal.sapphire);
 	score = scoreValue + sapphireValue;
 	console.log(score);
 	$("#score").html(score);
@@ -142,6 +237,24 @@ $("#sapphire").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
+
+
+
+
     }
     else if(score === randomNumbervalue){
 	win = winValue+=1;
@@ -151,6 +264,20 @@ $("#sapphire").click(function(){
 	scoreValue = parseInt(score);
 	console.log(scoreValue);
 	$("#score").html(score);
+	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	$("#randomnumber").html(randomNumbervalue);
+	diamondValue = [Math.floor(Math.random()*(12-1))+1];
+	diamondValue = parseInt(diamondValue);
+	console.log([diamondValue]);
+	emeraldValue = [Math.floor(Math.random()*(12-1))+1];
+	emeraldValue = parseInt(emeraldValue);
+	console.log([emeraldValue]);
+	rubyValue = [Math.floor(Math.random()*(12-1))+1];
+	rubyValue = parseInt(rubyValue);
+	console.log([rubyValue]);
+	sapphireValue = [Math.floor(Math.random()*(12-1))+1];
+	sapphireValue = parseInt(sapphireValue);
+	console.log([sapphireValue]);
     }
 
 });
