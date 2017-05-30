@@ -52,6 +52,7 @@ $("#diamond").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -69,7 +70,7 @@ $("#diamond").click(function(){
 	}
 
 
-    else if(score === randomNumbervalue){
+    if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
@@ -78,6 +79,7 @@ $("#diamond").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -112,6 +114,7 @@ $("#emerald").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -130,7 +133,7 @@ $("#emerald").click(function(){
 
 
 
-    else if(score === randomNumbervalue){
+    if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
@@ -139,6 +142,7 @@ $("#emerald").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -176,6 +180,7 @@ $("#ruby").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -193,7 +198,7 @@ $("#ruby").click(function(){
 
 
 
-    else if(score === randomNumbervalue){
+    if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
@@ -202,6 +207,7 @@ $("#ruby").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -238,6 +244,7 @@ $("#sapphire").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
@@ -256,7 +263,7 @@ $("#sapphire").click(function(){
 
 
     }
-    else if(score === randomNumbervalue){
+    if(score === randomNumbervalue){
 	win = winValue+=1;
 	console.log(win);
 	$("#winbox").html(win);
@@ -265,6 +272,7 @@ $("#sapphire").click(function(){
 	console.log(scoreValue);
 	$("#score").html(score);
 	randomNumbervalue = [Math.floor(Math.random()*(120-19))+19];
+	randomNumbervalue = parseInt(randomNumbervalue);
 	$("#randomnumber").html(randomNumbervalue);
 	diamondValue = [Math.floor(Math.random()*(12-1))+1];
 	diamondValue = parseInt(diamondValue);
